@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\Interactions\Highlight.cs" />
     <Compile Include="Assets\Scripts\Interactions\Interaction.cs" />
     <Compile Include="Assets\Scripts\Interactive.cs" />
+    <Compile Include="Assets\Scripts\MouseManager.cs" />
     <Compile Include="Assets\Scripts\Rotate.cs" />
     <Compile Include="Assets\Scripts\RtsManager.cs" />
   </ItemGroup>
