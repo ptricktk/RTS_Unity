@@ -73,8 +73,11 @@
     <Compile Include="Assets\Scripts\Definitions\PlayerSetupDefinition.cs" />
     <Compile Include="Assets\Scripts\Interactions\Highlight.cs" />
     <Compile Include="Assets\Scripts\Interactions\Interaction.cs" />
+    <Compile Include="Assets\Scripts\Interactions\RighClickNavigation.cs" />
     <Compile Include="Assets\Scripts\Interactive.cs" />
+    <Compile Include="Assets\Scripts\MarkColor.cs" />
     <Compile Include="Assets\Scripts\MouseManager.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Rotate.cs" />
     <Compile Include="Assets\Scripts\RtsManager.cs" />
   </ItemGroup>
