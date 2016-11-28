@@ -7,4 +7,14 @@ public class Player : MonoBehaviour {
 
     public static PlayerSetupDefinition Default;
 
+    void Start()
+    {
+        info.activeUnits.Add(this.gameObject);
+
+    }
+
+    void OnDestory()
+    {
+        info.activeUnits.Remove(this.gameObject);
+    }
 }

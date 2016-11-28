@@ -71,6 +71,9 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraCradle.cs" />
     <Compile Include="Assets\Scripts\Definitions\PlayerSetupDefinition.cs" />
+    <Compile Include="Assets\Scripts\HUD\Map.cs" />
+    <Compile Include="Assets\Scripts\HUD\MapBlip.cs" />
+    <Compile Include="Assets\Scripts\HUD\VisibilityManager.cs" />
     <Compile Include="Assets\Scripts\Interactions\Highlight.cs" />
     <Compile Include="Assets\Scripts\Interactions\Interaction.cs" />
     <Compile Include="Assets\Scripts\Interactions\RighClickNavigation.cs" />

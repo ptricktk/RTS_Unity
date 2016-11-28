@@ -10,5 +10,8 @@ public class PlayerSetupDefinition {
     public List<GameObject> startingUnits = new List<GameObject>();
     public bool isAi;
     public float credits;
-    
+
+    private List<GameObject> _activeUnits = new List<GameObject>();
+
+    public List<GameObject> activeUnits { get { return _activeUnits; } }
 }
