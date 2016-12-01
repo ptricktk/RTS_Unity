@@ -6,7 +6,7 @@ public class RighClickNavigation : Interaction {
 
     public float relaxDistance = 5;
 
-    private NavMeshAgent _agent;
+    private UnityEngine.AI.NavMeshAgent _agent;
     private Vector3 _target = Vector3.zero;
     private bool _selected = false;
     private bool _isActive = false;
@@ -29,7 +29,7 @@ public class RighClickNavigation : Interaction {
     }
     
     void Start () {
-        _agent = GetComponent<NavMeshAgent>();
+        _agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
 	}
 	
 	void Update () {
